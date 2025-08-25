@@ -6,10 +6,10 @@ import Header from './component/Header';
 import Work from './component/Work';
 import Footer from './component/Footer';
 import Testimonial from './component/Testimonial';
-
+ 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <Header />   
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +17,6 @@ function App() {
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/contact" element={<Footer />} />
       </Routes>
-      
     </Router>
   )
 }

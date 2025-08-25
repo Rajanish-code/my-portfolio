@@ -12,7 +12,7 @@ function Type() {
           "NodeJS Developer",
           "Java Developer",
           "Python Developer",
-          "Spring Boot",
+         
         ],
         autoStart: true,
         loop: true,
