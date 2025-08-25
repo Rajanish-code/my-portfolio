@@ -9,7 +9,7 @@ import Testimonial from './component/Testimonial';
  
 function App() {
   return (
-    <Router basename="/my-portfolio">
+    <Router >
       <Header />   
       <Routes>
         <Route path="/" element={<Home />} />
